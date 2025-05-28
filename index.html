@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkerboard</title>
+  <style>
+    .board {
+      display: grid;
+      grid-template-columns: repeat(8, 80px);
+      grid-template-rows: repeat(8, 80px);
+      border: 10px solid black;
+      width: fit-content;
+      margin: 50px auto;
+    }
+
+    .cell {
+      width: 80px;
+      height: 80px;
+    }
+
+    .black {
+      background-color: black;
+    }
+
+    .pink {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="board">
+    
+    <!-- Row 1 -->
+    <div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div>
+    <!-- Row 2 -->
+    <div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div>
+    <!-- Row 3 -->
+    <div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div>
+    <!-- Row 4 -->
+    <div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div>
+    <!-- Row 5 -->
+    <div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div>
+    <!-- Row 6 -->
+    <div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div>
+    <!-- Row 7 -->
+    <div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div>
+    <!-- Row 8 -->
+    <div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div><div class="cell pink"></div><div class="cell black"></div>
+
+  </div>
+
+</body>
+</html>
